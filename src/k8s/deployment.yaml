@@ -53,7 +53,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: thionas/kube-news:v2
+          image: thionas/kube-news:{{TAG}}
           ports:
           - containerPort: 8080
           env:
