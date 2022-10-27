@@ -20,8 +20,7 @@ pipeline {
                 }           
             }    
         }
----
-
+        
         stage ('Deploy Kubernetes') {
             environment {
                 tag_version = "${env.BUILD_ID}"
